@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <link rel="icon" href="{% static 'portfolio/favicon.ico' %}">
+        <meta name="generator" content="Jekyll v4.1.1">
+        <title>Vivek C B</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="{% static 'portfolio/style.css' %}"/>
+    </header>
+    <body>        
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container">
+                <a class="navbar-brand" href="index.html"><span>Vivek C Bharadwaj</span><span class="text_small">/NPO Engineer</span></a>
+                  
+                <div class="col-auto">
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{% url 'vivek_bharadwaj_portfolio' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'vivek_bharadwaj_projects' %}">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'vivek_bharadwaj_resume' %}">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'vivek_bharadwaj_contact' %}">Contact</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+                    </div>
+              </div>
+            </nav>
+            
+        </header>
+        
+        <section>
+            <div class="container">
+                <span>Project Highlights</span>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>     
+            </div>
+        
+        
+        </section>
+                <footer class="footer mt-auto py-3 bg-light">
+          <div class="container">
+              
+                <div class="text-start text-center">
+                    <span class="text-muted text-center">Copyright &copy; 2020-2021 Vivek C B — All right Reserved. </span>    
+                </div>
+              
+              
+            
+          </div>
+        </footer>
+    
+    </body>
+    
+</html>

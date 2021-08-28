@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="generator" content="Jekyll v4.1.1">
+        <title>Vivek C B</title>
+        <link rel="icon" href="{% static 'portfolio/favicon.ico' %}">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="{% static 'portfolio/style.css' %}"/>
+
+    </header>
+    <body>
+        <div class="container-fluid overflow-auto">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container">
+                <a class="navbar-brand" href="index.html"><span>Vivek C Bharadwaj</span><span class="text_small">/NPO Engineer</span></a>
+                  
+                <div class="col-auto">
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'vivek_bharadwaj_portfolio' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'vivek_bharadwaj_projects' %}">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'vivek_bharadwaj_resume' %}">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'vivek_bharadwaj_contact' %}">Contact</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+                    </div>
+              </div>
+            </nav>
+            
+        </header>
+        
+        <section>
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="card shadow-lg p-3 mb-5 bg-white rounded float-right" style="width: 28rem;">
+                          <img src="{% static 'portfolio/IMG_5500.JPG' %}" height="450px;" class="card-img-top" alt="vivek image" style="border-radius: 50%;vertical-align: middle;">
+                          <div class="card-body text-center">
+                            <h4 class="card-title big_weight" style="font-family: 'Roboto', sans-serif;">Vivek<br> Bharadwaj</h4>
+                            <p class="card-text big_weight" style="font-family: 'Roboto', sans-serif;"><span>Designation-</span><span>NPO Engineer</span></p>
+                            <div class="">
+                                <a href="#" class="btn btn-primary">Go somewhere</a>  
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h1>Hello!</h1><br>
+                        
+                        <span class="big_weight" style="font-family: 'Roboto', sans-serif;">I'm Vivek, a software engineer based in Bangalore.
+                        </span>
+                        <span class="big_weight" style="font-family: 'Roboto', sans-serif;">
+                        A passionate developer who loves everything about in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations.
+                            <a href="{% url 'vivek_bharadwaj_resume' %}" class="text-warning">More About Me......</a>
+                        
+                        </span><br>
+                        <div class="container pt-4">
+                        <a class="btn btn-outline-info" href="{% url 'vivek_bharadwaj_resume' %}" role="button">Resume</a>  <a class="btn btn-outline-info" href="{% url 'vivek_bharadwaj_projects' %}" role="button">Projects</a><br>
+                        </div>
+
+                    </div>
+                </div>
+            
+            
+            
+            
+            </div>
+            
+            
+        
+            
+            
+        
+        </section>
+        
+        
+        
+        <footer class="footer mt-auto py-3 bg-light">
+          <div class="container">
+              
+                <div class="text-start text-center">
+                    <span class="text-muted text-center">Copyright &copy; 2020-2021 Vivek C B — All right Reserved. </span>    
+                </div>
+              
+              
+            
+          </div>
+        </footer>
+        </div>
+    </body>
+    
+</html>
